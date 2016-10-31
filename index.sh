@@ -15,9 +15,12 @@ alias httpd-start='service httpd start';
 alias httpd-stop='service httpd stop';
 
 ## maria-start:
-alias mariadb-start='systemctl start mariadb';
-alias mariadb-stop='systemctl stop mariadb';
-alias mariadb-restart='systemctl restart mariadb';
+alias mysql-start='service mariadb start';
+alias mysql-stop='service mariadb stop';
+alias mysql-status='service mariadb status';
+alias mysql-restart='service mariadb restart';
+alias mysql-resetpwd='mysql_secure_installation';
+
 alias tf-access-log='tail -f /etc/httpd/logs/access_log';
 
 unset ROOT_PATH;
