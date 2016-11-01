@@ -20,6 +20,7 @@ alias mysql-stop='service mariadb stop';
 alias mysql-status='service mariadb status';
 alias mysql-restart='service mariadb restart';
 alias mysql-resetpwd='mysql_secure_installation';
+alias mysql-data='cd /var/lib/mysql';
 
 alias tf-access-log='tail -f /etc/httpd/logs/access_log';
 
