@@ -8,11 +8,11 @@ alias cd-lamp='cd /etc/httpd';
 alias e-httpd='vim /etc/httpd/conf/httpd.conf';
 
 ## yum install httpd:
-alias httpd-restart='service httpd restart';
-alias httpd-status='service httpd status';
-alias httpd-reload='service httpd reload';
-alias httpd-start='service httpd start';
-alias httpd-stop='service httpd stop';
+alias apache-restart='service httpd restart';
+alias apache-status='service httpd status';
+alias apache-reload='service httpd reload';
+alias apache-start='service httpd start';
+alias apache-stop='service httpd stop';
 
 ## maria-start:
 alias mysql-start='service mariadb start';
@@ -21,6 +21,7 @@ alias mysql-status='service mariadb status';
 alias mysql-restart='service mariadb restart';
 alias mysql-resetpwd='mysql_secure_installation';
 alias mysql-data='cd /var/lib/mysql';
+alias mysql-login='mysql -u root -p';
 
 alias tf-access-log='tail -f /etc/httpd/logs/access_log';
 

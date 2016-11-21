@@ -14,6 +14,4 @@ sudo yum install -y mariadb-server mariadb;
 ## reset mariadb password:
 sudo mysql_secure_installation;
 
-
-
 unset ROOT_PATH;
