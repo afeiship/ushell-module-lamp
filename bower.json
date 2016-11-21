@@ -16,5 +16,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "ushell-module-mysql": "afeiship/ushell-module-mysql"
+  }
 }
