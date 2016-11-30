@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "ushell-module-mysql": "afeiship/ushell-module-mysql"
+    "ushell-module-mysql": "afeiship/ushell-module-mysql",
+    "ushell-module-mysqldump": "afeiship/ushell-module-mysqldump"
   }
 }
